@@ -1,6 +1,7 @@
 // avinash_verma
 //code chef :- avinash_vermaa
 //github : -   avinash_vermaaa
+
 #include "bits/stdc++.h"
 #include "algorithm"
 // #include<ext/pb_ds/assoc_container.hpp>
@@ -48,13 +49,6 @@ void avinash_verma()
 int32_t main()
 {
     fastio();  // cin cout tie NULL
-    
-    
-    
- 
-
-
-
     avinash_verma();
  
 }
