@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
 #define ll long long int 
@@ -8,8 +7,15 @@ using namespace std;
 #define rrep(i,a,b)   for(ll i=a;i>=b;i--)
 #define e2nrep(i,a,b)  for(ll i=a;i<=b;i++)
 
-#define ff first
-#define sc second
+#define pb                  push_back
+#define ppb                 pop_back
+#define pf                  push_front
+#define all(x)              (x).begin(),(x).end()
+
+#define ff                  first
+#define ss                  second
+#define mp                  make_pair
+#define PI                  3.141592653589793238462
 
 #define fastio() ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
 
