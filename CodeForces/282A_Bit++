@@ -10,16 +10,12 @@ using namespace std;
 
 int main()
 {
-    int t;
-    cin>>t;
-   
-    int p = 0;
+    int t,p=0;  cin>>t;
+
     while(t--)
     {
-            
-        string str,str1,str2;
+        string str;
         cin>>str;
-        int x=-1;
         if(str[1]=='+')
         {
             p++;
