@@ -1,0 +1,28 @@
+// https://codeforces.com/problemset/problem/231/A
+
+//avinash_kumar
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int t;
+    cin>>t;
+    int flag=0;
+    while(t--)
+    {
+        int a,b,c;
+        cin>>a>>b>>c;
+        
+        a+=b+c;
+                        // int flag=0;
+        if(a>=2){
+            flag++;
+        } 
+    } 
+    cout<<flag<<endl;
+    return 0;
+}
