@@ -12,20 +12,14 @@ int main()
 {
     int t;
     cin>>t;
-    // int n,k;
-    // cin>>n>>k;
-    // int flag=0;
+   
     int p = 0;
     while(t--)
     {
-            // int x = 0;
+            
         string str,str1,str2;
         cin>>str;
         int x=-1;
-        // str1= ++x;
-        // --x;
-        // str2= x++;
-        // --x;
         if(str[1]=='+')
         {
             p++;
