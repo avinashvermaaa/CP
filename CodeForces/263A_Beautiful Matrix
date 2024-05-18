@@ -1,0 +1,48 @@
+// https://codeforces.com/problemset/problem/263/A
+
+
+//avinash_kumar
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    
+    // int n,k;
+    // cin>>n>>k;
+    // int flag=0;
+    // int x = 0;
+    // while(t--)
+   int ii=0,jj=0;
+   int arr[5][5];
+   for(int i=0;i<5;i++)
+   {
+    for(int j=0;j<5;j++)
+    {
+            cin>>arr[i][j];        
+            if(arr[i][j]==1)
+            {
+                ii=i;
+                jj=j;
+            }
+    }
+   }
+   ii++;jj++;
+   
+   
+   ii = 3-ii;
+   ii = abs(ii);
+   
+   jj = 3-jj;
+   jj = abs(jj);
+   
+   ii+= jj;
+   
+   cout<<ii<<endl;
+   
+    
+    return 0;
+}
