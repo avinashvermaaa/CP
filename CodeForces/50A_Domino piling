@@ -1,0 +1,24 @@
+// https://codeforces.com/problemset/problem/50/A
+
+
+//avinash_kumar
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    // int t;
+    // cin>>t;
+    int n,k;
+    cin>>n>>k;
+    int flag=0;
+    // while(t--)
+    
+    flag = (n*k)/2 ;
+    cout<<flag<<endl;
+    
+    return 0;
+}
