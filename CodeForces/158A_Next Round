@@ -1,0 +1,30 @@
+// https://codeforces.com/problemset/problem/158/A
+
+//avinash_kumar
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    // int t;
+    // cin>>t;
+    int n,k;
+    cin>>n>>k;
+    int flag=0;
+    // while(t--)
+    int arr[n];
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+    }
+    for(int i=0;i<n;i++){
+        if(arr[i]>=arr[k-1] && arr[i]>0){
+            flag++;
+        }
+        
+    }
+    cout<<flag<<endl;   
+    return 0;
+}
