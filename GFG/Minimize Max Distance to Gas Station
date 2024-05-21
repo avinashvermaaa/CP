@@ -1,0 +1,36 @@
+// https://www.geeksforgeeks.org/problems/minimize-max-distance-to-gas-station/1
+
+
+
+
+class Solution {
+  public:
+  bool isPossible(vector<int>& s, double mid, int k) {
+        int count = 0, n = s.size();
+        for (int i = 1; i < n; ++i) {
+            count += ceil((s[i] - s[i - 1]) / mid) - 1;
+        }
+        return count <= k;
+    }
+
+    double findSmallestMaxDist(vector<int>& s, int k) {
+        sort(s.begin(), s.end());
+        
+        double st = 0.0, end = s.back() - s.front(), 
+        ans = end;
+        
+        while (end - st > 1e-6) {
+            double mid = st + (end - st) / 2.0;
+            if (isPossible(s, mid, k)) {
+                end = mid;
+                
+                ans = mid;
+            } 
+            else 
+            {
+                st = mid;
+            }
+        }
+        return ans;
+    }
+};
