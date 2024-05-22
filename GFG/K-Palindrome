@@ -1,0 +1,45 @@
+// https://www.geeksforgeeks.org/problems/find-if-string-is-k-palindrome-or-not1923/1
+
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+
+class Solution{
+public:
+    int kPalindrome(string str, int n, int k)
+    {
+        vector<vector<int>> ahem_ji_bkl(n + 1, vector<int>(n + 1, 0));
+        for (int i = 1; i <= n; ++i) {
+            for (int j = 1; j <= n; ++j) {
+                if (str[i - 1] == str[n - j]) {
+                    ahem_ji_bkl[i][j] = ahem_ji_bkl[i - 1][j - 1] + 1;
+                } else {
+                    ahem_ji_bkl[i][j] = max(ahem_ji_bkl[i - 1][j], ahem_ji_bkl[i][j - 1]);
+                }
+            }
+        }
+        int lps = ahem_ji_bkl[n][n];
+        int minDeletions = n - lps;
+        return minDeletions <= k;
+    }
+};
+
+
+
+
+int main(){
+    int t;
+    cin>>t;
+    while(t--){
+        int n, k;
+        cin>>n>>k;
+        string str;
+        cin>>str;
+        
+        Solution ob;
+        cout<<ob.kPalindrome(str, n, k)<<endl;
+    }
+    return 0;
+}
