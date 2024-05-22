@@ -5,4 +5,4 @@ CP_templates and mostly used codes are here.
 My CP codes ! :)
 
 
-use filter option in cdeforces to see fast executed codes
+use filter option in codeforces to see fast executed codes (more optimised codes)
