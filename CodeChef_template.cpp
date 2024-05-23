@@ -7,6 +7,8 @@ using namespace std;
 #define rrep(i,a,b)   for(ll i=a;i>=b;i--)
 #define e2nrep(i,a,b)  for(ll i=a;i<=b;i++)
 
+#define input(i,a,n); for(int i=0;i<n;i++){ cin >> a[i]; }        // input of array
+
 #define pb                  push_back
 #define ppb                 pop_back
 #define pf                  push_front
