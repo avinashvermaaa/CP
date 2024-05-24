@@ -6,9 +6,10 @@ git config --global user.name "Avinash Kumar"
 git config --global user.email "code6969nation@gmail.com"
 
 clear :- clear all screen messages
-cd change directory
-mkdir make directory
-touch ( create other file like ok.txt )
+cd 		( change directory )
+mkdir 		( make directory )
+clear           ( to clear the screen)
+touch 		( create other file like ok.txt )
 git status
 ls 	 	:-	lists al file in that folder or directory
 ls -a    	:-	lists al file in that folder or directory
@@ -21,6 +22,8 @@ git rm		:- filename
 
 
 				*******************************************************************************
+
+config user -> config email -> cd -> mkdir -> git init -> touch file.txt -> git add * -> git status -> git commit -> gitk -> git gui -> git stash 
 
 $ git config --global user.name "Avinash Kumar"                       // --> global username 
 $ git config --global user.email  "code6969nation@gmail.com"  	      // --> global user email
@@ -35,8 +38,22 @@ git config levels :-
 $ git gui 							     // --> for gui
 $ gitk 								     // --> for gui history of merge,pull,push 
 
- 		
-  
+$ mkdir 							     // --> make directory/ make file
+$ git init 							     // --> initialise git in the repo or directory  	
+$ touch <file name>						     // --> create file (note.txt)
+
+$ git status 							     // --> check staging of files / commit status / list all untracked files
+
+$ git add <file name>						     // --> create file (note.txt)
+$ git add * 							     // --> add all file to staging / tracking phase
+$ git add -A							     // --> add all file to staging / tracking phase
+
+$ git add --ignore-removal 					     // --> add all new & updates files only
+$ git add -u 							     // --> add all modified and deleted files 
+$ git add *.txt or *.java 					     // --> add all files of similiar type to staging area
+
+$ git reset <file name>						     // --> remove file from staging area
+
 
 
 
