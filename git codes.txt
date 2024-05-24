@@ -1,0 +1,74 @@
+-------------------------------------------------------------------------------------------------------------------------------------------
+Git / Github :-
+-------------------------------------------------------------------------------------------------------------------------------------------
+git config --global user.name "Avinash Kumar"
+
+git config --global user.email "code6969nation@gmail.com"
+
+clear :- clear all screen messages
+cd change directory
+mkdir make directory
+touch ( create other file like ok.txt )
+git status
+ls 	 	:-	lists al file in that folder or directory
+ls -a    	:-	lists al file in that folder or directory
+git init 	:-      initialize git
+git commit -m"commit message"
+git add folder name
+git add .
+git add --all   :- adds all new file
+git rm		:- filename
+
+
+				*******************************************************************************
+
+$ git config --global user.name "Avinash Kumar"                       // --> global username 
+$ git config --global user.email  "code6969nation@gmail.com"  	      // --> global user email
+
+$ git config --list						      // --> list all variables and their default values
+
+
+git config levels :- 
+	--local
+	--global
+	--system  
+$ git gui 							     // --> for gui
+$ gitk 								     // --> for gui history of merge,pull,push 
+
+ 		
+  
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+Command Prompt :-
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+color help / hlep color -> change color of cmd ( color A0-> A-bg_green 7->text color black) :) {7,0->white,black}
+dir/s 			-> hacking prank
+tree 			-> hacking prank
+
+cmd any file		type cmd at address bar of any folder and it will open that filepath in cmd 
+cipher /E & /D		encryption and decryption at any file / folder using cmd
+
+cls  			clear screen
+dir  			lists all folder inside a folder or drive
+f: 			drive f
+e:			drive e
+c:			drive c -> usersGALAXY
+
+cd 			change directory
+mkdir / md 		make directory    	            ( mkdir folder_name )
+ren 			rename directory 		    ( ren folder_name new_name) ( ren 8908.pdf new8908.pdf)
+rd 			remove directory  		    ( rd folder_name)
+
+"filename.extension"		-> open file inside any folder / drive ( "hello.txt" or "8908.pdf" )
+copy con filename.extension   & in next line write message  -> it create a file like helo.txt with message inside
+	{ copy con hello.txt -> in next line(hello this is written using cmd) -> }
+echo message > filename.txt 
+notepad hello.txt
+
+
+
