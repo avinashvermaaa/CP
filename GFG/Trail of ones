@@ -1,0 +1,49 @@
+// https://www.geeksforgeeks.org/problems/trail-of-ones3242/1
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+
+int mod=1e9+7;
+class Solution {
+  public:
+    int numberOfConsecutiveOnes(int n) {
+        // code here
+        vector<int> previous(3,0);
+        previous[2]=1;
+        
+        for(int i=1;i<=n;i++)
+        {
+            vector<int> curr(3,0);
+            for(int j=0;j<=2;j++)
+            {
+                int a=0, b=0;
+                
+                if(j==2) a=previous[j];
+                else a=previous[0];
+                
+                if(j==0) b=previous[1];
+                else b=previous[2];
+                
+                curr[j]=(a+b)%mod;
+            }
+            previous=curr;
+        }
+        
+        return previous[0];
+    }
+};
+
+
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        int N;
+        cin >> N;
+        Solution ob;
+        cout << ob.numberOfConsecutiveOnes(N) << endl;
+    }
+    return 0;
+}
