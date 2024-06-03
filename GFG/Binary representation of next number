@@ -1,0 +1,41 @@
+//  https://www.geeksforgeeks.org/problems/binary-representation-of-next-number3648/1
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+class Solution {
+  public:
+        string binaryNextNumber(string s) {
+        char c='1';
+        reverse(s.begin(),s.end());
+        for(int ok=0;ok<s.size();ok++){
+            if(s[ok]=='0'){
+                s[ok]='1'; c='0';
+                break;
+            }
+            else{
+                s[ok]='0';
+            }
+        }
+        if(c=='1') s+='1';
+        reverse(s.begin(),s.end());
+        int i;
+         for(i=0;i<s.size();i++) if(s[i]=='1') break;
+        return s.substr(i,s.size()-i);
+    }
+};
+
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        string s;
+        cin >> s;
+        Solution ob;
+        cout << ob.binaryNextNumber(s);
+        cout << "\n";
+    }
+
+    return 0;
+}
