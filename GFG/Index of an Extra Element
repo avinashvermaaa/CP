@@ -1,0 +1,13 @@
+// https://www.geeksforgeeks.org/problems/index-of-an-extra-element/1
+
+class Solution {
+  public:
+    
+    int findExtra(int n, int a[], int b[]) {
+       for(int i=0;i<n;i++){
+          if(a[i]!=b[i]){
+              return i;
+          }
+       }
+    }
+};
