@@ -18,9 +18,9 @@ Live Preview
 Prettier
 vscode-icons   
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-check   testcase
+check   testcase present or not
 
-check   YES Yes yes
+check   YES Yes yes NO No no
 
 check   range of vars.  int or long int
 
