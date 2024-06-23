@@ -17,3 +17,8 @@ VS CODE :- (EXTENSIONS)
 Live Preview 
 Prettier
 vscode-icons   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+check   testcase
+check   YES Yes yes
+check   range of vars.  int or long int
+check   codition for overflow and underflow
