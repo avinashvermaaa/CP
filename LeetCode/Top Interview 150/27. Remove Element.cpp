@@ -3,6 +3,8 @@
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
+        
+
         int ans = 0;
         for(int i = 0;i<nums.size();i++)
         {
@@ -12,6 +14,8 @@ public:
                 ans++;
             }
         }
+
         return ans;
+
     }
 };
