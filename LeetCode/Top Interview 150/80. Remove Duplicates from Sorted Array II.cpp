@@ -3,17 +3,20 @@
 
 class Solution {
 public:
-    int removeDuplicates(vector<int>& nums) {
-        int i =0;
-      
-        for(auto ele : nums)
+    int removeElement(vector<int>& nums, int val) {
+        
+
+        int ans = 0;
+        for(int i = 0;i<nums.size();i++)
         {
-            if(i==0 || i==1 || nums[i-2] != ele)
+            if(nums[i] != val)
             {
-                nums[i] = ele;
-                i++;
+                nums[ans] = nums[i];
+                ans++;
             }
         }
-    return i ;
+
+        return ans;
+
     }
 };
