@@ -5,12 +5,9 @@ public:
 
         ones = accumulate(nums.begin(),nums.end(),0);
         nums.insert(nums.end(),nums.begin(),nums.end());
-
-        for(int i =0;i<ones;i++)
-        {
-            sli += nums[i];  
-        }
-
+        
+        sli = accumulate(nums.begin(),nums.begin()+ones,0);
+        
          maxi = sli;
 
         for(int i = ones;i<nums.size();i++)
