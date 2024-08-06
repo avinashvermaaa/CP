@@ -27,6 +27,7 @@ using namespace std;
 #define ppb                 pop_back
 #define pf                  push_front
 #define all(x)              (x).begin(),(x).end()
+#define rall(x)		(x).rbegin(),(x).rend()
 
 #define mp                  make_pair
 #define ff                  first
