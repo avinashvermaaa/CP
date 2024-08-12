@@ -1,11 +1,8 @@
 # Condition Check :-  
 ``` 
   check -->    Whether testcase is present or not
-  
   check -->    YES Yes yes NO No no
-  
-  check -->    Range of vars.  int or long int
-  
+  check -->    Range of variables int, long long int ,vector_size and all
   check -->    Codition of ( overflow and underflow )
   check -->    Boundary conditions
 ```
