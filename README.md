@@ -21,10 +21,11 @@ vscode-icons
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
-  check   testcase present or not
+  check -->    Whether testcase is present or not
   
-  check   YES Yes yes NO No no
+  check -->    YES Yes yes NO No no
   
-  check   range of vars.  int or long int
+  check -->    Range of vars.  int or long int
   
-  check   codition for overflow and underflow
+  check -->    Codition of ( overflow and underflow )
+  check -->    Boundary conditions
