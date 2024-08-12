@@ -1,5 +1,17 @@
-# cp_templates
+# Condition Check :-  
+  check -->    Whether testcase is present or not
+  
+  check -->    YES Yes yes NO No no
+  
+  check -->    Range of vars.  int or long int
+  
+  check -->    Codition of ( overflow and underflow )
+  check -->    Boundary conditions
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# cp_templates :-
+```
   CP_templates and mostly used codes are here.
   
   My CP codes ! :)
@@ -9,10 +21,9 @@
   
   
   24+ runs / commit = dark green heatmap
-
-
-
+```
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # VS CODE :- (EXTENSIONS)
 ```
 Live Preview, 
@@ -20,12 +31,4 @@ Prettier,
 vscode-icons   
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  
-  check -->    Whether testcase is present or not
-  
-  check -->    YES Yes yes NO No no
-  
-  check -->    Range of vars.  int or long int
-  
-  check -->    Codition of ( overflow and underflow )
-  check -->    Boundary conditions
+
