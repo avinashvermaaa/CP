@@ -7,8 +7,17 @@
   check -->    Boundary conditions
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Fast Execution /  Compilation :-
+```
+auto init = []() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    return 'c';
+}();
 
-# cp_templates :-
+```
+#cp_templates :-
 ```
   CP_templates and mostly used codes are here.
   
