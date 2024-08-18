@@ -39,4 +39,10 @@ Prettier,
 vscode-icons   
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+# Hackathon :-
+```
+Flipkart Grid 6.0
+  Registered :- 4,84,309
+  After Phase 1 :- 8165 Teams only shortlisted
+  After Phase 2 :- 327 Teams only
+```
