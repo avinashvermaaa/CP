@@ -1,3 +1,13 @@
+
+// create .gitignore file to ignore files from ulpoading
+git init
+git add .
+git commit -m "message"
+git remote add origin https://github.com/avinashvermaaa/repo.git
+git branch -M main
+git push -u origin main
+
+
 -------------------------------------------------------------------------------------------------------------------------------------------
 Git / Github :-
 -------------------------------------------------------------------------------------------------------------------------------------------
@@ -86,6 +96,3 @@ copy con filename.extension   & in next line write message  -> it create a file 
 	{ copy con hello.txt -> in next line(hello this is written using cmd) -> }
 echo message > filename.txt 
 notepad hello.txt
-
-
-
