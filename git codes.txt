@@ -8,7 +8,7 @@ git branch -M main
 git push -u origin main
 
 go to dir. rm -rf .git ( to remove git from that  { file/ folder/ dir./ repo } )
-
+cd file\ name/filenamewith\ space/   --> {file name/ filenamewith space}
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 Git / Github :-
