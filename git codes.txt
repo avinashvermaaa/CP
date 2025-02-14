@@ -7,6 +7,8 @@ git remote add origin https://github.com/avinashvermaaa/repo.git
 git branch -M main
 git push -u origin main
 
+go to dir. rm -rf .git ( to remove git from that  { file/ folder/ dir./ repo } )
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 Git / Github :-
