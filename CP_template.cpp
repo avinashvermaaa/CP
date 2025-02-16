@@ -21,8 +21,7 @@
 */ 
 
 // avinash_verma
-//code chef :- avinash_vermaa
-//github : -   avinash_vermaaa
+
 
 #include "bits/stdc++.h"
 #include "algorithm"
