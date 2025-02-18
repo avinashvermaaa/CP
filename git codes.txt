@@ -18,11 +18,12 @@ git config --global user.name "Avinash Kumar"
 git config --global user.email "code6969nation@gmail.com"
 
 
-clear    	        ( to clear the screen)
-cd 			( change directory )
-mkdir  filename		( make directory )
-touch  filename 	( create other file like ok.txt )
-mv     filename		( remove file from folder )
+clear    	        	( to clear the screen)
+cd 				( change directory )
+mkdir   filename		( make directory )
+touch   filename 		( create other file like ok.txt )
+mv      filename newfilename	( rename file to newname in folder )
+rm      filename		( remove file from the folder )
 | Command                     | Description                                                                                     |
 |-----------------------------|-------------------------------------------------------------------------------------------------|
 | git status                  | Shows the current status of the working directory and staging area, including changes to be committed, untracked files, and 					files that are staged for commit. |
