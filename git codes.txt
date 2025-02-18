@@ -11,29 +11,33 @@ go to dir. rm -rf .git ( to remove git from that  { file/ folder/ dir./ repo } )
 cd file\ name/filenamewith\ space/   --> {file name/ filenamewith space}
 
 -------------------------------------------------------------------------------------------------------------------------------------------
-Git / Github :-
+Git_BASH / Github :-
 -------------------------------------------------------------------------------------------------------------------------------------------
 git config --global user.name "Avinash Kumar"
 
 git config --global user.email "code6969nation@gmail.com"
 
-clear :- clear all screen messages
+
+clear           ( to clear the screen)
 cd 		( change directory )
 mkdir 		( make directory )
-clear           ( to clear the screen)
 touch 		( create other file like ok.txt )
-git status
-ls 	 	:-	lists al file in that folder or directory
-ls -a    	:-	lists al file in that folder or directory
-git init 	:-      initialize git
-git commit -m"commit message"
-git add folder name
-git add .
-git add --all   :- adds all new file
-git rm		:- filename
+
+| Command                     | Description                                                                                     |
+|-----------------------------|-------------------------------------------------------------------------------------------------|
+| git status                  | Shows the current status of the working directory and staging area, including changes to be committed, untracked files, and 					files that are staged for commit. |
+| ls                          | Lists all files and directories in the current folder or directory.                           |
+| ls -a                       | Lists all files and directories in the current folder or directory, including hidden files (those starting with a dot). |
+| git init                    | Initializes a new Git repository in the current directory, creating a .git subdirectory.   |             |
+| git add folder_name         | Stages all changes (new, modified, deleted files) in the specified folder for the next commit. |
+| git add .                   | Stages all changes (new, modified, deleted files) in the current directory and its subdirectories for the next commit. |
+| git add --all               | Stages all changes (new, modified, deleted files) in the entire repository for the next commit, including files that have been 					deleted. |
+| git commit -m "msg"         | Commits the staged changes to the repository with a descriptive message.        
+| git rm filename             | Removes the specified file from the working directory and stages the removal for the next commit. |
 
 
-				*******************************************************************************
+
+				******************************************************************************************************************************************************
 
 config user -> config email -> cd -> mkdir -> git init -> touch file.txt -> git add * -> git status -> git commit -> gitk -> git gui -> git stash 
 
