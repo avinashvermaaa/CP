@@ -18,11 +18,11 @@ git config --global user.name "Avinash Kumar"
 git config --global user.email "code6969nation@gmail.com"
 
 
-clear           ( to clear the screen)
-cd 		( change directory )
-mkdir 		( make directory )
-touch 		( create other file like ok.txt )
-
+clear    	        ( to clear the screen)
+cd 			( change directory )
+mkdir  filename		( make directory )
+touch  filename 	( create other file like ok.txt )
+mv     filename		( remove file from folder )
 | Command                     | Description                                                                                     |
 |-----------------------------|-------------------------------------------------------------------------------------------------|
 | git status                  | Shows the current status of the working directory and staging area, including changes to be committed, untracked files, and 					files that are staged for commit. |
@@ -34,7 +34,7 @@ touch 		( create other file like ok.txt )
 | git add --all               | Stages all changes (new, modified, deleted files) in the entire repository for the next commit, including files that have been 					deleted. |
 | git commit -m "msg"         | Commits the staged changes to the repository with a descriptive message.        
 | git rm filename             | Removes the specified file from the working directory and stages the removal for the next commit. |
-
+mv
 
 
 				******************************************************************************************************************************************************
