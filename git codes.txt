@@ -7,6 +7,12 @@ git remote add origin https://github.com/avinashvermaaa/repo.git
 git branch -M main
 git push -u origin main
 
+// To unstage everything added by git add .
+git reset 
+// Undo a pushed commit without losing your local changes
+git reset --soft HEAD~1
+
+
 go to dir. rm -rf .git ( to remove git from that  { file/ folder/ dir./ repo } )
 cd file\ name/filenamewith\ space/   --> {file name/ filenamewith space}
 
